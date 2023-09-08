@@ -4,12 +4,12 @@
 /**
  * main - returns alphabets
  *
- * Return: Always (0) (Scuccess)
- *
+ * Return: Always (0) (Scuccess)*
  */
 int main(void)
 {
 	int ch = 'a';
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
