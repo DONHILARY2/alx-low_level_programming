@@ -1,25 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - returns alphabets both lower and upper cases
- * Return: Always 0 (Success)
+ *  main - program that prints the alphabet in lowercase and upper case
+ *
+ *  Return: Always 0.
  */
+
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	char letter;
 
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	while (CH <= 'Z')
-	{
-		putchar(CH);
-	        ch++;
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+	putchar(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+	putchar(letter);
 	putchar('\n');
 	return (0);
 }
